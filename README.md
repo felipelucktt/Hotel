@@ -2,7 +2,7 @@
 1. [Sobre o Projeto](#hotel)
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 3. [Instalação Local](#instalação-local)
-4. [Instalação Via Docker](#instalação-local)
+4. [Instalação Via Docker](#instalação-via-docker)
 5. [Uso](#uso)
 6. [API Endpoints](#endpoints)
 7. [Exemplos de Requisição](#exemplos-de-requisição)
