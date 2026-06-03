@@ -1,6 +1,6 @@
 package com.plaza.hotel.controller;
 
-import com.plaza.hotel.commons.ApiResponse;
+import com.plaza.hotel.dto.ApiResponseDTO;
 import com.plaza.hotel.dto.GuestDTO;
 import com.plaza.hotel.dto.GuestResponseDTO;
 import com.plaza.hotel.entity.Guest;
@@ -28,15 +28,15 @@ public class GuestController {
     }
 
     @PutMapping(value = "/{id}")
-    public ResponseEntity<ApiResponse> updateGuest(@RequestBody GuestDTO dto, @PathVariable Long id) {
+    public ResponseEntity<ApiResponseDTO> updateGuest(@RequestBody GuestDTO dto, @PathVariable Long id) {
         service.updateGuest(dto, id);
-        return ResponseEntity.ok(new ApiResponse("Guest updated successfully"));
+        return ResponseEntity.ok(new ApiResponseDTO("Guest updated successfully"));
     }
 
     @DeleteMapping(value = "/{id}")
-    public ResponseEntity<ApiResponse> deleteGuest(@PathVariable Long id) {
+    public ResponseEntity<ApiResponseDTO> deleteGuest(@PathVariable Long id) {
         service.deleteGuest(id);
-        return ResponseEntity.ok(new ApiResponse("Guest deleted successfully"));
+        return ResponseEntity.ok(new ApiResponseDTO("Guest deleted successfully"));
     }
 
     @GetMapping

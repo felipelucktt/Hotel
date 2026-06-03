@@ -1,6 +1,5 @@
 package com.plaza.hotel.controller;
 
-import com.plaza.hotel.commons.ApiResponse;
 import com.plaza.hotel.dto.AccommodationDTO;
 import com.plaza.hotel.dto.CheckoutDTO;
 import com.plaza.hotel.dto.CheckoutResponseDTO;
