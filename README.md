@@ -24,14 +24,19 @@ git@github.com:felipelucktt/Hotel.git
 ``` 
 2. Instale as dependências do Maven
 ## Instalação via Docker
-1. Caso esteja no Windows, necessário instalar o docker desktop
+1.Clone o repositório utilizando o comando abaixo:
+```bash
+git@github.com:felipelucktt/Hotel.git
+``` 
 
-2. Gerar a imagem usando o comando: 
+2. Caso esteja no Windows, necessário instalar o docker desktop
+
+3. Gerar a imagem usando o comando: 
 ```bash
 docker build -t hotel-api .
 ``` 
 
-3. Subir os containers utilizando o comando:
+4. Subir os containers utilizando o comando:
 ```bash
 docker-compose up
 ``` 
