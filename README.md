@@ -6,7 +6,7 @@
 5. [Uso](#uso)
 6. [Endpoints](#endpoints)
 7. [Exemplos de Requisição](#exemplos-de-requisição)
-8. [Configuração com PostgreSQL](#como-usar-o-projeto-com-o-banco-de-dados-PostgreSql)
+8. [Configuração com PostgreSQL](#configurando-o-postgres)
 
 # Hotel
 Este projeto é um sistema de gerenciamento de hotel com foco no cadastro de hóspedes e no controle de estadias, incluindo check-in e check-out. A aplicação realiza a cobrança com base no número de noites hospedadas, aplicando regras de negócio para cálculo de diárias e organização do fluxo de permanência no hotel.
