@@ -26,17 +26,27 @@ git@github.com:felipelucktt/Hotel.git
 ## Instalação via Docker
 1.Clone o repositório utilizando o comando abaixo:
 ```bash
-git@github.com:felipelucktt/Hotel.git
+git clone git@github.com:felipelucktt/Hotel.git
 ``` 
 
 2. Caso esteja no Windows, necessário instalar o docker desktop
 
-3. Gerar a imagem usando o comando: 
+3. Na raiz do projeto, gerar o jar do projeto com o comando abaixo:
+```bash
+mvn clean package
+``` 
+
+4. Na raiz do projeto, gerar a imagem do projeto usando o comando: 
 ```bash
 docker build -t hotel-api .
 ``` 
 
-4. Subir os containers utilizando o comando:
+5. Conferir se a imagen foi gerada:
+```bash
+docker images
+```
+
+6. Subir os containers utilizando o comando:
 ```bash
 docker-compose up
 ``` 
