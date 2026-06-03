@@ -4,7 +4,7 @@
 3. [Instalação Local](#instalação-local)
 4. [Instalação Via Docker](#instalação-via-docker)
 5. [Uso](#uso)
-6. [API Endpoints](#endpoints)
+6. [Endpoints](#endpoints)
 7. [Exemplos de Requisição](#exemplos-de-requisição)
 8. [Configuração com PostgreSQL](#como-usar-o-projeto-com-o-banco-de-dados-PostgreSql)
 
