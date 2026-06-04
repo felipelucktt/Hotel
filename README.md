@@ -20,7 +20,7 @@ Este projeto é um sistema de gerenciamento de hotel com foco no cadastro de hó
 ## Instalação Local
 1. Clone o repositório utilizando o comando abaixo:
 ```bash
-git@github.com:felipelucktt/Hotel.git
+git clone git@github.com:felipelucktt/Hotel.git
 ``` 
 2. Instale as dependências do Maven
 ## Instalação via Docker
